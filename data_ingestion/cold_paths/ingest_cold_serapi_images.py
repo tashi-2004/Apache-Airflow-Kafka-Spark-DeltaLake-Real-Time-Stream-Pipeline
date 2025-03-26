@@ -8,9 +8,7 @@ load_dotenv()
 SERPAPI_KEY = os.getenv("SERPAPI_KEY")
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
 
-
 LANDING_ZONE_RAW = os.path.join(BASE_DIR, "storage", "delta","raw", "images", "serapi")
-
 os.makedirs(LANDING_ZONE_RAW, exist_ok=True)
 
 def fetch_google_maps_images(query):
