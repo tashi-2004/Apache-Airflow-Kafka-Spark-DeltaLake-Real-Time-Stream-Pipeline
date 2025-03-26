@@ -69,7 +69,6 @@ dag = DAG(
     catchup=False,
 )
 
-
 ingest_bluesky_task = PythonOperator(
     task_id='ingest_bluesky',
     python_callable=ingest_bluesky_data,
