@@ -6,16 +6,12 @@ import requests
 import cbor2
 from dotenv import load_dotenv
 
-# Load credentials from .env
 load_dotenv()
 BSKY_USERNAME = os.getenv("ATP_EMAIL")
 BSKY_PASSWORD = os.getenv("ATP_PASSWORD")
 
-# Kafka configuration
 KAFKA_SERVER = "localhost:9092"
 TOPIC = "bluesky_data"
-
-# Initialize Kafka producer
 producer = KafkaProducer(
     bootstrap_servers=KAFKA_SERVER,
     value_serializer=lambda v: json.dumps(v).encode('utf-8')
@@ -86,4 +82,3 @@ def fetch_bluesky_data():
 
 if __name__ == "__main__":
     fetch_bluesky_data()
-
