@@ -6,7 +6,6 @@ import time
 
 TWITTER_BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAN%2FhzwEAAAAAG3ATdlame3omTSnIQMVDgT%2FfXDo%3DDMwmTKUccrCojxBMP584lidrDgsu9fPO9uMUfQQNfpxZTgJIll" 
 SAVE_DIR = "/home/tashi/BDM_Project/storage/delta/raw/social_media_data/twitter"
-
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 def fetch_twitter_data():
