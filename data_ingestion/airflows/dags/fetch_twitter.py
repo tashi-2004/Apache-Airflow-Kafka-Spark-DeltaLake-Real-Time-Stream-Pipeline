@@ -3,7 +3,6 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
 
-
 TWITTER_API_KEY = '160xl53FUKfuDjMceaJzaE6yz'
 TWITTER_API_SECRET = 'vAk8ykuyoNVmNbqfv3tXcV3lqZQA4fyAxaKK7wgvVkbbGrMmK7'
 TWITTER_ACCESS_TOKEN = '1901215733557637120-PRxOwlNCYqJcbG9e0fVkCPekKdykSH'
@@ -40,5 +39,3 @@ fetch_twitter_task = PythonOperator(
     python_callable=fetch_twitter_data,
     dag=dag,
 )
-
-
