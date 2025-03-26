@@ -15,7 +15,6 @@ def fetch_google_maps_data():
         'query': query,
         'key': API_GOOGLE_MAPS,
     }
-
     response = requests.get(url, params=params)
     if response.status_code == 200:
         data = response.json()
