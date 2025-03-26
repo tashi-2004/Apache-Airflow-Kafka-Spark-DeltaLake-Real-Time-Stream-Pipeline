@@ -41,4 +41,3 @@ if __name__ == "__main__":
     print("\t\t\t\t\t|___________________|")
     print("\n")
     process_traffic_data()
-
