@@ -37,4 +37,3 @@ def send_traffic_data():
 
 if __name__ == "__main__":
     send_traffic_data()
-
