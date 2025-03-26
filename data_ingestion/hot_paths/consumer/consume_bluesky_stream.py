@@ -22,13 +22,10 @@ def consume_traffic_data():
         save_traffic_data(message.value)
 
 def save_traffic_data(data):
-    # Convert the data into a pandas DataFrame
-    df = pd.DataFrame([data])  # Make sure data is in a format that pandas can handle
+    df = pd.DataFrame([data])  
     filename = f"traffic_data_{datetime.now().strftime('%Y%m%d%H%M%S')}.parquet"
     file_path = os.path.join(SAVE_DIR, filename)
-
-    # Save DataFrame as Parquet file
-    df.to_parquet(file_path, engine='pyarrow')  # 'pyarrow' or 'fastparquet' can be used as the engine
+    df.to_parquet(file_path, engine='pyarrow')  
     print(f"Data saved to {file_path}")
 
 if __name__ == "__main__":
