@@ -5,7 +5,6 @@ from pyspark.sql.functions import col, lit
 from datetime import datetime
 from PIL import Image
 import pandas as pd
-
 spark = SparkSession.builder \
     .appName("DataProcessing") \
     .config("spark.jars", "/home/tashi/spark/jars/delta-spark_2.13-3.3.0.jar") \
