@@ -3,11 +3,9 @@ import requests
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv("/home/tashi/airflow/env")
 GOOGLE_MAPS_API_KEY = os.getenv("API_GOOGLE_MAPS")
 
-# Path to save the images
 SAVE_DIR = os.path.join(os.path.expanduser("~"), "BDM_Project", "storage", "delta", "raw", "images", "googlemaps")
 os.makedirs(SAVE_DIR, exist_ok=True)
 
@@ -26,11 +24,8 @@ def fetch_google_maps_images():
     try:
         response = requests.get(url, params=params)
         if response.status_code == 200:
-            # Define image filename
             filename = f"google_maps_image_{datetime.now().strftime('%Y%m%d%H%M%S')}.jpg"
             file_path = os.path.join(SAVE_DIR, filename)
-
-            # Save the image to the file path
             with open(file_path, "wb") as f:
                 f.write(response.content)
 
@@ -50,4 +45,3 @@ def fetch_google_maps_images():
 
 if __name__ == "__main__":
     fetch_google_maps_images()
-
