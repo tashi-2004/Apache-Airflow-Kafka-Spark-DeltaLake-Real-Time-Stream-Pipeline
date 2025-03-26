@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
-
 load_dotenv("/home/tashi/airflow/env")
 SERPAPI_KEY = os.getenv('SERPAPI_KEY')
 def fetch_serapi_traffic_images():
