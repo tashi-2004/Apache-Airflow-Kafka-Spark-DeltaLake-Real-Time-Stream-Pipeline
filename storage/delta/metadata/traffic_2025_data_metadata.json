@@ -1,0 +1,1147 @@
+{
+    "dataset_name": "traffic_2025_data",
+    "data_count": 76,
+    "files_metadata": [
+        {
+            "file_name": "traffic_data_20250321224333.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 7,
+                "infoDisponible": 1,
+                "data": 20250301043052,
+                "tempsActual": 184,
+                "tempsPrevist": 184,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224334.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 30,
+                "infoDisponible": 1,
+                "data": 20250301135054,
+                "tempsActual": 397,
+                "tempsPrevist": 396,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224335.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 16,
+                "infoDisponible": 1,
+                "data": 20250301023053,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224336.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 28,
+                "infoDisponible": 1,
+                "data": 20250301115552,
+                "tempsActual": 261,
+                "tempsPrevist": 260,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224337.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 51,
+                "infoDisponible": 1,
+                "data": 20250301072055,
+                "tempsActual": 269,
+                "tempsPrevist": 269,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224338.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 41,
+                "infoDisponible": 0,
+                "data": 20250301162052,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224339.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 38,
+                "infoDisponible": 1,
+                "data": 20250302012553,
+                "tempsActual": 204,
+                "tempsPrevist": 204,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224340.json",
+            "file_size_in_bytes": 204,
+            "sample_data": {
+                "idTram": 76,
+                "infoDisponible": 0,
+                "data": 20250302110053,
+                "tempsActual": 91,
+                "tempsPrevist": 93,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224341.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 43,
+                "infoDisponible": 0,
+                "data": 20250302201553,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.109990"
+        },
+        {
+            "file_name": "traffic_data_20250321224342.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 49,
+                "infoDisponible": 1,
+                "data": 20250303054053,
+                "tempsActual": 304,
+                "tempsPrevist": 304,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224343.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 30,
+                "infoDisponible": 1,
+                "data": 20250303124053,
+                "tempsActual": 397,
+                "tempsPrevist": 398,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224344.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 20,
+                "infoDisponible": 0,
+                "data": 20250303200053,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224345.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 28,
+                "infoDisponible": 1,
+                "data": 20250304052552,
+                "tempsActual": 260,
+                "tempsPrevist": 260,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224346.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 64,
+                "infoDisponible": 0,
+                "data": 20250304122553,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224347.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 41,
+                "infoDisponible": 0,
+                "data": 20250304202052,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224348.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 18,
+                "infoDisponible": 1,
+                "data": 20250305023553,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224349.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 31,
+                "infoDisponible": 1,
+                "data": 20250305092552,
+                "tempsActual": 221,
+                "tempsPrevist": 221,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224350.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 60,
+                "infoDisponible": 1,
+                "data": 20250305162553,
+                "tempsActual": 417,
+                "tempsPrevist": 417,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224351.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 67,
+                "infoDisponible": 1,
+                "data": 20250305224053,
+                "tempsActual": 217,
+                "tempsPrevist": 218,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224352.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 57,
+                "infoDisponible": 1,
+                "data": 20250306053553,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224353.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 36,
+                "infoDisponible": 1,
+                "data": 20250306125053,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.118076"
+        },
+        {
+            "file_name": "traffic_data_20250321224354.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 11,
+                "infoDisponible": 1,
+                "data": 20250306190058,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224355.json",
+            "file_size_in_bytes": 204,
+            "sample_data": {
+                "idTram": 2,
+                "infoDisponible": 1,
+                "data": 20250307005555,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224356.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 19,
+                "infoDisponible": 0,
+                "data": 20250307071553,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224357.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 18,
+                "infoDisponible": 1,
+                "data": 20250307134058,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224358.json",
+            "file_size_in_bytes": 204,
+            "sample_data": {
+                "idTram": 8,
+                "infoDisponible": 0,
+                "data": 20250307190554,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224359.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 31,
+                "infoDisponible": 1,
+                "data": 20250308002552,
+                "tempsActual": 219,
+                "tempsPrevist": 219,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224400.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 6,
+                "infoDisponible": 1,
+                "data": 20250308071053,
+                "tempsActual": 275,
+                "tempsPrevist": 275,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224401.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 68,
+                "infoDisponible": 1,
+                "data": 20250308120559,
+                "tempsActual": 128,
+                "tempsPrevist": 129,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224402.json",
+            "file_size_in_bytes": 208,
+            "sample_data": {
+                "idTram": 62,
+                "infoDisponible": 0,
+                "data": 20250308172558,
+                "tempsActual": 1108,
+                "tempsPrevist": 1108,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224403.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 19,
+                "infoDisponible": 0,
+                "data": 20250308232053,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224404.json",
+            "file_size_in_bytes": 204,
+            "sample_data": {
+                "idTram": 9,
+                "infoDisponible": 0,
+                "data": 20250309055054,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224405.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 70,
+                "infoDisponible": 1,
+                "data": 20250309122557,
+                "tempsActual": 130,
+                "tempsPrevist": 131,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224406.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 28,
+                "infoDisponible": 1,
+                "data": 20250309184053,
+                "tempsActual": 260,
+                "tempsPrevist": 260,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224407.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 75,
+                "infoDisponible": 0,
+                "data": 20250310002553,
+                "tempsActual": 230,
+                "tempsPrevist": 237,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224408.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 55,
+                "infoDisponible": 1,
+                "data": 20250310061553,
+                "tempsActual": 120,
+                "tempsPrevist": 120,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224409.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 32,
+                "infoDisponible": 1,
+                "data": 20250310121052,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224410.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 24,
+                "infoDisponible": 1,
+                "data": 20250310173055,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224411.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 14,
+                "infoDisponible": 0,
+                "data": 20250310214056,
+                "tempsActual": 676,
+                "tempsPrevist": 676,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224412.json",
+            "file_size_in_bytes": 204,
+            "sample_data": {
+                "idTram": 76,
+                "infoDisponible": 0,
+                "data": 20250311041053,
+                "tempsActual": 89,
+                "tempsPrevist": 89,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224413.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 54,
+                "infoDisponible": 1,
+                "data": 20250311093054,
+                "tempsActual": 164,
+                "tempsPrevist": 164,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224414.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 46,
+                "infoDisponible": 0,
+                "data": 20250311145054,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224415.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 58,
+                "infoDisponible": 1,
+                "data": 20250311212052,
+                "tempsActual": 104,
+                "tempsPrevist": 104,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224416.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 44,
+                "infoDisponible": 0,
+                "data": 20250312040053,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224417.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 25,
+                "infoDisponible": 1,
+                "data": 20250312100052,
+                "tempsActual": 244,
+                "tempsPrevist": 244,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224418.json",
+            "file_size_in_bytes": 204,
+            "sample_data": {
+                "idTram": 8,
+                "infoDisponible": 0,
+                "data": 20250312161057,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224419.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 41,
+                "infoDisponible": 0,
+                "data": 20250312234057,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224420.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 14,
+                "infoDisponible": 0,
+                "data": 20250313062554,
+                "tempsActual": 676,
+                "tempsPrevist": 676,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224421.json",
+            "file_size_in_bytes": 208,
+            "sample_data": {
+                "idTram": 62,
+                "infoDisponible": 0,
+                "data": 20250313125054,
+                "tempsActual": 1108,
+                "tempsPrevist": 1108,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224422.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 5,
+                "infoDisponible": 1,
+                "data": 20250313195554,
+                "tempsActual": 174,
+                "tempsPrevist": 174,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.120671"
+        },
+        {
+            "file_name": "traffic_data_20250321224423.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 36,
+                "infoDisponible": 1,
+                "data": 20250314031555,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224424.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 72,
+                "infoDisponible": 0,
+                "data": 20250314102054,
+                "tempsActual": 378,
+                "tempsPrevist": 450,
+                "tempsRecorregutFutur": 0,
+                "factorReferenciaActual": 0,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224425.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 14,
+                "infoDisponible": 0,
+                "data": 20250314162556,
+                "tempsActual": 679,
+                "tempsPrevist": 678,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224426.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 50,
+                "infoDisponible": 1,
+                "data": 20250314232056,
+                "tempsActual": 190,
+                "tempsPrevist": 190,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224427.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 5,
+                "infoDisponible": 1,
+                "data": 20250315061554,
+                "tempsActual": 175,
+                "tempsPrevist": 174,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224428.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 71,
+                "infoDisponible": 0,
+                "data": 20250315141056,
+                "tempsActual": 118,
+                "tempsPrevist": 110,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224429.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 44,
+                "infoDisponible": 0,
+                "data": 20250315222057,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224430.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 67,
+                "infoDisponible": 1,
+                "data": 20250316065553,
+                "tempsActual": 209,
+                "tempsPrevist": 210,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224431.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 65,
+                "infoDisponible": 1,
+                "data": 20250316144055,
+                "tempsActual": 139,
+                "tempsPrevist": 138,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224432.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 32,
+                "infoDisponible": 1,
+                "data": 20250316231559,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224433.json",
+            "file_size_in_bytes": 208,
+            "sample_data": {
+                "idTram": 62,
+                "infoDisponible": 0,
+                "data": 20250317063101,
+                "tempsActual": 1108,
+                "tempsPrevist": 1108,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224434.json",
+            "file_size_in_bytes": 204,
+            "sample_data": {
+                "idTram": 9,
+                "infoDisponible": 0,
+                "data": 20250317111054,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224435.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 73,
+                "infoDisponible": 0,
+                "data": 20250317170556,
+                "tempsActual": 119,
+                "tempsPrevist": 116,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224436.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 65,
+                "infoDisponible": 1,
+                "data": 20250317225555,
+                "tempsActual": 127,
+                "tempsPrevist": 132,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224437.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 75,
+                "infoDisponible": 0,
+                "data": 20250318053558,
+                "tempsActual": 223,
+                "tempsPrevist": 223,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224438.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 73,
+                "infoDisponible": 0,
+                "data": 20250318145100,
+                "tempsActual": 117,
+                "tempsPrevist": 116,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224439.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 18,
+                "infoDisponible": 1,
+                "data": 20250318205059,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224440.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 61,
+                "infoDisponible": 1,
+                "data": 20250319030056,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224441.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 24,
+                "infoDisponible": 1,
+                "data": 20250319133108,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224442.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 35,
+                "infoDisponible": 1,
+                "data": 20250319191604,
+                "tempsActual": 151,
+                "tempsPrevist": 151,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224443.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 28,
+                "infoDisponible": 1,
+                "data": 20250320024055,
+                "tempsActual": 260,
+                "tempsPrevist": 260,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224444.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 64,
+                "infoDisponible": 0,
+                "data": 20250320094556,
+                "tempsActual": 0,
+                "tempsPrevist": 0,
+                "tempsRecorregutFutur": -1,
+                "factorReferenciaActual": -1,
+                "tendencia": -1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224445.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 25,
+                "infoDisponible": 1,
+                "data": 20250320160057,
+                "tempsActual": 244,
+                "tempsPrevist": 243,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224446.json",
+            "file_size_in_bytes": 208,
+            "sample_data": {
+                "idTram": 62,
+                "infoDisponible": 0,
+                "data": 20250321001054,
+                "tempsActual": 1108,
+                "tempsPrevist": 1108,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.126634"
+        },
+        {
+            "file_name": "traffic_data_20250321224447.json",
+            "file_size_in_bytes": 205,
+            "sample_data": {
+                "idTram": 7,
+                "infoDisponible": 1,
+                "data": 20250321092055,
+                "tempsActual": 185,
+                "tempsPrevist": 185,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.131388"
+        },
+        {
+            "file_name": "traffic_data_20250321224448.json",
+            "file_size_in_bytes": 206,
+            "sample_data": {
+                "idTram": 78,
+                "infoDisponible": 1,
+                "data": 20250321113058,
+                "tempsActual": 428,
+                "tempsPrevist": 428,
+                "tempsRecorregutFutur": 1,
+                "factorReferenciaActual": 1,
+                "tendencia": 1
+            },
+            "timestamp": "2025-03-24T05:23:45.131388"
+        }
+    ],
+    "timestamp": "2025-03-24T05:23:45.131388"
+}

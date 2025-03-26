@@ -1,0 +1,27 @@
+[2025-03-21T19:00:07.801+0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-21T19:00:07.813+0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_twitter.fetch_twitter_data_task scheduled__2025-03-21T13:00:00+00:00 [queued]>
+[2025-03-21T19:00:07.821+0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_twitter.fetch_twitter_data_task scheduled__2025-03-21T13:00:00+00:00 [queued]>
+[2025-03-21T19:00:07.822+0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 4
+[2025-03-21T19:00:07.841+0500] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_twitter_data_task> on 2025-03-21 13:00:00+00:00
+[2025-03-21T19:00:07.847+0500] {standard_task_runner.py:72} INFO - Started process 65999 to run task
+[2025-03-21T19:00:07.851+0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_twitter', 'fetch_twitter_data_task', 'scheduled__2025-03-21T13:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/fetch_twitter.py', '--cfg-path', '/tmp/tmppt4709nq']
+[2025-03-21T19:00:07.852+0500] {standard_task_runner.py:105} INFO - Job 22: Subtask fetch_twitter_data_task
+[2025-03-21T19:00:07.890+0500] {task_command.py:467} INFO - Running <TaskInstance: fetch_twitter.fetch_twitter_data_task scheduled__2025-03-21T13:00:00+00:00 [running]> on host ubuntu
+[2025-03-21T19:00:07.957+0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fetch_twitter' AIRFLOW_CTX_TASK_ID='fetch_twitter_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-21T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-21T13:00:00+00:00'
+[2025-03-21T19:00:07.960+0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-21T19:00:07.961+0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-21T19:00:07.962+0500] {logging_mixin.py:190} INFO - Current task name:fetch_twitter_data_task state:running start_date:2025-03-21 14:00:07.814080+00:00
+[2025-03-21T19:00:07.962+0500] {logging_mixin.py:190} INFO - Dag name:fetch_twitter and current dag run status:running
+[2025-03-21T19:00:07.963+0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-21T19:00:08.441+0500] {logging_mixin.py:190} INFO - Error fetching tweets: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+[2025-03-21T19:00:08.443+0500] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-21T19:00:08.459+0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-21T19:00:08.460+0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=fetch_twitter, task_id=fetch_twitter_data_task, run_id=scheduled__2025-03-21T13:00:00+00:00, execution_date=20250321T130000, start_date=20250321T140007, end_date=20250321T140008
+[2025-03-21T19:00:08.490+0500] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-21T19:00:08.491+0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-21T19:00:08.491+0500] {logging_mixin.py:190} INFO - Dag name:fetch_twitter queued_at:2025-03-21 14:00:01.219091+00:00
+[2025-03-21T19:00:08.491+0500] {logging_mixin.py:190} INFO - Task hostname:ubuntu operator:PythonOperator
+[2025-03-21T19:00:08.505+0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-21T19:00:08.518+0500] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-21T19:00:08.519+0500] {local_task_job_runner.py:245} INFO - ::endgroup::

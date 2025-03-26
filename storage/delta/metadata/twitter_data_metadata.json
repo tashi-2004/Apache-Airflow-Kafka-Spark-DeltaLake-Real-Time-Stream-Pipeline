@@ -1,0 +1,39 @@
+{
+    "dataset_name": "twitter_data",
+    "data_count": 1,
+    "files_metadata": [
+        {
+            "file_name": "twitter_data_20250321.csv",
+            "file_size_in_bytes": 2165,
+            "sample_data": [
+                {
+                    "id": 1903116485414809819,
+                    "edit_history_tweet_ids": "['1903116485414809819']",
+                    "text": "\u26ab Tallada la C-59 a l'altura de l'Estany en els dos sentits per esllavissades https://t.co/qy18t8Q9cY"
+                },
+                {
+                    "id": 1903112013754094042,
+                    "edit_history_tweet_ids": "['1903112013754094042']",
+                    "text": "\ud83d\udd34 Lentitud amb aturades a l'A-2 a Castellbisbal en sentit Lleida a causa d'un #avariat que talla un carril https://t.co/iAH04hdMkt"
+                },
+                {
+                    "id": 1903111450878492851,
+                    "edit_history_tweet_ids": "['1903111450878492851']",
+                    "text": "\ud83d\udd34 Aturades a l'AP-7 entre la Roca i Montorn\u00e8s del Vall\u00e8s en sentit Tarragona a causa d'un #accident \n\n\u2139 Dos carrils tallats\n\n\ud83d\udd34 Tamb\u00e9 hi ha aturades de Mollet a Barber\u00e0 en sentit sud i a Montorn\u00e8s en sentit nord https://t.co/a7qyBaYQtv"
+                },
+                {
+                    "id": 1903110657911746790,
+                    "edit_history_tweet_ids": "['1903110657911746790']",
+                    "text": "\u274c\u274c Un carril obert a l'AP-7 a Martorell en sentit Barcelona a causa d'un #accident \n\n\ud83d\udd34 #Retencions des de Gelida https://t.co/Dzc8NhIbW6"
+                },
+                {
+                    "id": 1903098105899167952,
+                    "edit_history_tweet_ids": "['1903098105899167952']",
+                    "text": "\ud83d\udd34 #Retencions a la B-20 a Tiana en sentit Matar\u00f3 per #accident \n\n\u274c\u274c Un carril obert https://t.co/FRIsxmjf1u"
+                }
+            ],
+            "timestamp": "2025-03-24T05:23:45.170563"
+        }
+    ],
+    "timestamp": "2025-03-24T05:23:45.170563"
+}

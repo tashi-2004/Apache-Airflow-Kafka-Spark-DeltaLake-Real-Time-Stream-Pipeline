@@ -1,0 +1,84 @@
+[2025-03-22T00:27:51.371+0500] {processor.py:186} INFO - Started process (PID=153694) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:27:51.372+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:27:51.374+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:27:51.374+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:27:51.391+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:27:51.515+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:27:51.515+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:27:51.536+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:27:51.536+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:27:51.566+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.206 seconds
+[2025-03-22T00:28:54.407+0500] {processor.py:186} INFO - Started process (PID=153908) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:28:54.411+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:28:54.413+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:28:54.412+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:28:54.428+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:28:54.443+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:28:54.443+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:28:54.462+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:28:54.462+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:28:54.481+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.086 seconds
+[2025-03-22T00:29:30.678+0500] {processor.py:186} INFO - Started process (PID=154010) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:29:30.682+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:29:30.683+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:29:30.683+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:29:30.699+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:29:30.801+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:29:30.801+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:29:30.821+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:29:30.821+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:29:30.852+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.186 seconds
+[2025-03-22T00:30:07.579+0500] {processor.py:186} INFO - Started process (PID=154095) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:30:07.582+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:30:07.583+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:30:07.583+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:30:07.597+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:30:07.613+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:30:07.613+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:30:07.634+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:30:07.634+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:30:07.654+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.088 seconds
+[2025-03-22T00:30:43.211+0500] {processor.py:186} INFO - Started process (PID=154221) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:30:43.215+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:30:43.217+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:30:43.216+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:30:43.231+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:30:43.323+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:30:43.323+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:30:43.340+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:30:43.340+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:30:43.363+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.162 seconds
+[2025-03-22T00:31:17.263+0500] {processor.py:186} INFO - Started process (PID=154313) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:31:17.267+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:31:17.269+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:31:17.269+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:31:17.288+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:31:17.310+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:31:17.310+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:31:17.339+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:31:17.339+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:31:17.364+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.117 seconds
+[2025-03-22T00:31:52.262+0500] {processor.py:186} INFO - Started process (PID=154412) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:31:52.263+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:31:52.264+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:31:52.264+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:31:52.277+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:31:52.367+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:31:52.367+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:31:52.388+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:31:52.387+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:31:52.415+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.163 seconds
+[2025-03-22T00:32:27.844+0500] {processor.py:186} INFO - Started process (PID=154492) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:32:27.845+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:32:27.847+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:32:27.846+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:32:27.862+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:32:27.877+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:32:27.876+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:32:27.896+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:32:27.895+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:32:27.916+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.084 seconds
+[2025-03-22T00:33:01.954+0500] {processor.py:186} INFO - Started process (PID=154582) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:33:01.958+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:33:01.959+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:33:01.959+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:33:01.975+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:33:02.061+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:33:02.061+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:33:02.078+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:33:02.077+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:33:02.107+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.165 seconds
+[2025-03-22T00:33:37.317+0500] {processor.py:186} INFO - Started process (PID=154662) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:33:37.321+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:33:37.322+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:33:37.322+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:33:37.335+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:33:37.351+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:33:37.351+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:33:37.373+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:33:37.373+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:33:37.393+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.085 seconds
+[2025-03-22T00:34:11.247+0500] {processor.py:186} INFO - Started process (PID=154758) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:34:11.251+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:34:11.253+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:34:11.253+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:34:11.268+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:34:11.376+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:34:11.375+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:34:11.398+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:34:11.398+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:34:11.430+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.195 seconds
+[2025-03-22T00:34:47.946+0500] {processor.py:186} INFO - Started process (PID=154847) to work on /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:34:47.951+0500] {processor.py:914} INFO - Processing file /home/tashi/airflow/dags/bluesky.py for tasks to queue
+[2025-03-22T00:34:47.952+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:34:47.952+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:34:47.968+0500] {processor.py:925} INFO - DAG(s) 'fetch_bluesky' retrieved from /home/tashi/airflow/dags/bluesky.py
+[2025-03-22T00:34:47.983+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:34:47.983+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T00:34:48.004+0500] {logging_mixin.py:190} INFO - [2025-03-22T00:34:48.004+0500] {dag.py:4180} INFO - Setting next_dagrun for fetch_bluesky to 2025-03-21 19:00:00+00:00, run_after=2025-03-21 20:00:00+00:00
+[2025-03-22T00:34:48.029+0500] {processor.py:208} INFO - Processing /home/tashi/airflow/dags/bluesky.py took 0.097 seconds

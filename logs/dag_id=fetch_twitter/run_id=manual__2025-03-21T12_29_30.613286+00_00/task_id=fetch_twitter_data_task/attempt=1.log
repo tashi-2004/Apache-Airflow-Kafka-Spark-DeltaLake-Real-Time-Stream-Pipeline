@@ -1,0 +1,104 @@
+[2025-03-21T17:29:33.898+0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-21T17:29:33.907+0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_twitter.fetch_twitter_data_task manual__2025-03-21T12:29:30.613286+00:00 [queued]>
+[2025-03-21T17:29:33.912+0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_twitter.fetch_twitter_data_task manual__2025-03-21T12:29:30.613286+00:00 [queued]>
+[2025-03-21T17:29:33.913+0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-21T17:29:33.926+0500] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_twitter_data_task> on 2025-03-21 12:29:30.613286+00:00
+[2025-03-21T17:29:33.931+0500] {standard_task_runner.py:72} INFO - Started process 42906 to run task
+[2025-03-21T17:29:33.935+0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_twitter', 'fetch_twitter_data_task', 'manual__2025-03-21T12:29:30.613286+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/fetch_twitter.py', '--cfg-path', '/tmp/tmpve5msb0m']
+[2025-03-21T17:29:33.936+0500] {standard_task_runner.py:105} INFO - Job 14: Subtask fetch_twitter_data_task
+[2025-03-21T17:29:33.974+0500] {task_command.py:467} INFO - Running <TaskInstance: fetch_twitter.fetch_twitter_data_task manual__2025-03-21T12:29:30.613286+00:00 [running]> on host ubuntu
+[2025-03-21T17:29:34.038+0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fetch_twitter' AIRFLOW_CTX_TASK_ID='fetch_twitter_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-21T12:29:30.613286+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-21T12:29:30.613286+00:00'
+[2025-03-21T17:29:34.039+0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-21T17:29:34.039+0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-21T17:29:34.039+0500] {logging_mixin.py:190} INFO - Current task name:fetch_twitter_data_task state:running start_date:2025-03-21 12:29:33.908269+00:00
+[2025-03-21T17:29:34.040+0500] {logging_mixin.py:190} INFO - Dag name:fetch_twitter and current dag run status:running
+[2025-03-21T17:29:34.040+0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-21T17:29:34.436+0500] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/tashi/airflow/dags/fetch_twitter.py", line 32, in fetch_twitter_data
+    tweets = api.user_timeline(screen_name="transit", count=10)
+  File "/home/tashi/.local/lib/python3.10/site-packages/tweepy/api.py", line 32, in wrapper
+    return method(*args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/tweepy/api.py", line 45, in wrapper
+    return method(*args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/tweepy/api.py", line 413, in user_timeline
+    return self.request(
+  File "/home/tashi/.local/lib/python3.10/site-packages/tweepy/api.py", line 270, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+[2025-03-21T17:29:34.442+0500] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-03-21T17:29:34.443+0500] {logging_mixin.py:190} INFO - Task start:2025-03-21 12:29:33.908269+00:00 end:2025-03-21 12:29:34.442363+00:00 duration:0.534094
+[2025-03-21T17:29:34.443+0500] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): fetch_twitter_data_task> dag:<DAG: fetch_twitter> dagrun:<DagRun fetch_twitter @ 2025-03-21 12:29:30.613286+00:00: manual__2025-03-21T12:29:30.613286+00:00, state:running, queued_at: 2025-03-21 12:29:30.623643+00:00. externally triggered: True>
+[2025-03-21T17:29:34.443+0500] {logging_mixin.py:190} INFO - Failure caused by 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+[2025-03-21T17:29:34.443+0500] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=fetch_twitter, task_id=fetch_twitter_data_task, run_id=manual__2025-03-21T12:29:30.613286+00:00, execution_date=20250321T122930, start_date=20250321T122933, end_date=20250321T122934
+[2025-03-21T17:29:34.466+0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-21T17:29:34.466+0500] {standard_task_runner.py:124} ERROR - Failed to execute job 14 for task fetch_twitter_data_task (403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product; 42906)
+Traceback (most recent call last):
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/tashi/airflow/dags/fetch_twitter.py", line 32, in fetch_twitter_data
+    tweets = api.user_timeline(screen_name="transit", count=10)
+  File "/home/tashi/.local/lib/python3.10/site-packages/tweepy/api.py", line 32, in wrapper
+    return method(*args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/tweepy/api.py", line 45, in wrapper
+    return method(*args, **kwargs)
+  File "/home/tashi/.local/lib/python3.10/site-packages/tweepy/api.py", line 413, in user_timeline
+    return self.request(
+  File "/home/tashi/.local/lib/python3.10/site-packages/tweepy/api.py", line 270, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+[2025-03-21T17:29:34.508+0500] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-03-21T17:29:34.520+0500] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-21T17:29:34.520+0500] {local_task_job_runner.py:245} INFO - ::endgroup::

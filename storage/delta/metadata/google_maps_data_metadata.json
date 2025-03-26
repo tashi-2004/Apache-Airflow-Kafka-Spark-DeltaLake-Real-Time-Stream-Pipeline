@@ -1,0 +1,607 @@
+{
+    "dataset_name": "google_maps_data",
+    "data_count": 100,
+    "files_metadata": [
+        {
+            "file_name": "google_maps_image_0.jpg",
+            "file_size_in_bytes": 12.0693359375,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:28.270409"
+        },
+        {
+            "file_name": "google_maps_image_1.jpg",
+            "file_size_in_bytes": 15.6796875,
+            "image_dimensions": "270x187",
+            "timestamp": "2025-03-24T05:22:28.282033"
+        },
+        {
+            "file_name": "google_maps_image_10.jpg",
+            "file_size_in_bytes": 11.8056640625,
+            "image_dimensions": "299x168",
+            "timestamp": "2025-03-24T05:22:28.298918"
+        },
+        {
+            "file_name": "google_maps_image_11.jpg",
+            "file_size_in_bytes": 10.1474609375,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.312552"
+        },
+        {
+            "file_name": "google_maps_image_12.jpg",
+            "file_size_in_bytes": 13.892578125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.323462"
+        },
+        {
+            "file_name": "google_maps_image_13.jpg",
+            "file_size_in_bytes": 14.1416015625,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.348136"
+        },
+        {
+            "file_name": "google_maps_image_14.jpg",
+            "file_size_in_bytes": 13.07421875,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.356684"
+        },
+        {
+            "file_name": "google_maps_image_15.jpg",
+            "file_size_in_bytes": 14.0810546875,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:28.375620"
+        },
+        {
+            "file_name": "google_maps_image_16.jpg",
+            "file_size_in_bytes": 13.6064453125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.389318"
+        },
+        {
+            "file_name": "google_maps_image_17.jpg",
+            "file_size_in_bytes": 13.4873046875,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.397663"
+        },
+        {
+            "file_name": "google_maps_image_18.jpg",
+            "file_size_in_bytes": 10.2587890625,
+            "image_dimensions": "262x192",
+            "timestamp": "2025-03-24T05:22:28.422037"
+        },
+        {
+            "file_name": "google_maps_image_19.jpg",
+            "file_size_in_bytes": 9.25390625,
+            "image_dimensions": "225x225",
+            "timestamp": "2025-03-24T05:22:28.438084"
+        },
+        {
+            "file_name": "google_maps_image_2.jpg",
+            "file_size_in_bytes": 9.05859375,
+            "image_dimensions": "259x195",
+            "timestamp": "2025-03-24T05:22:28.448603"
+        },
+        {
+            "file_name": "google_maps_image_20.jpg",
+            "file_size_in_bytes": 13.5615234375,
+            "image_dimensions": "276x182",
+            "timestamp": "2025-03-24T05:22:28.476344"
+        },
+        {
+            "file_name": "google_maps_image_21.jpg",
+            "file_size_in_bytes": 7.3779296875,
+            "image_dimensions": "246x205",
+            "timestamp": "2025-03-24T05:22:28.495941"
+        },
+        {
+            "file_name": "google_maps_image_22.jpg",
+            "file_size_in_bytes": 12.037109375,
+            "image_dimensions": "311x162",
+            "timestamp": "2025-03-24T05:22:28.516610"
+        },
+        {
+            "file_name": "google_maps_image_23.jpg",
+            "file_size_in_bytes": 11.4619140625,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.529030"
+        },
+        {
+            "file_name": "google_maps_image_24.jpg",
+            "file_size_in_bytes": 12.18359375,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.538228"
+        },
+        {
+            "file_name": "google_maps_image_25.jpg",
+            "file_size_in_bytes": 12.267578125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.564198"
+        },
+        {
+            "file_name": "google_maps_image_26.jpg",
+            "file_size_in_bytes": 11.5869140625,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.586466"
+        },
+        {
+            "file_name": "google_maps_image_27.jpg",
+            "file_size_in_bytes": 12.1123046875,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:28.602545"
+        },
+        {
+            "file_name": "google_maps_image_28.jpg",
+            "file_size_in_bytes": 13.130859375,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:28.619197"
+        },
+        {
+            "file_name": "google_maps_image_29.jpg",
+            "file_size_in_bytes": 9.9375,
+            "image_dimensions": "274x184",
+            "timestamp": "2025-03-24T05:22:28.637483"
+        },
+        {
+            "file_name": "google_maps_image_3.jpg",
+            "file_size_in_bytes": 13.5029296875,
+            "image_dimensions": "262x192",
+            "timestamp": "2025-03-24T05:22:28.652402"
+        },
+        {
+            "file_name": "google_maps_image_30.jpg",
+            "file_size_in_bytes": 13.5107421875,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:28.669472"
+        },
+        {
+            "file_name": "google_maps_image_31.jpg",
+            "file_size_in_bytes": 12.009765625,
+            "image_dimensions": "299x168",
+            "timestamp": "2025-03-24T05:22:28.686267"
+        },
+        {
+            "file_name": "google_maps_image_32.jpg",
+            "file_size_in_bytes": 10.060546875,
+            "image_dimensions": "327x154",
+            "timestamp": "2025-03-24T05:22:28.700634"
+        },
+        {
+            "file_name": "google_maps_image_33.jpg",
+            "file_size_in_bytes": 6.1875,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.710960"
+        },
+        {
+            "file_name": "google_maps_image_34.jpg",
+            "file_size_in_bytes": 15.986328125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.718979"
+        },
+        {
+            "file_name": "google_maps_image_35.jpg",
+            "file_size_in_bytes": 12.4443359375,
+            "image_dimensions": "281x180",
+            "timestamp": "2025-03-24T05:22:28.729063"
+        },
+        {
+            "file_name": "google_maps_image_36.jpg",
+            "file_size_in_bytes": 14.6103515625,
+            "image_dimensions": "305x165",
+            "timestamp": "2025-03-24T05:22:28.743915"
+        },
+        {
+            "file_name": "google_maps_image_37.jpg",
+            "file_size_in_bytes": 12.962890625,
+            "image_dimensions": "399x126",
+            "timestamp": "2025-03-24T05:22:28.752989"
+        },
+        {
+            "file_name": "google_maps_image_38.jpg",
+            "file_size_in_bytes": 12.306640625,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:28.770066"
+        },
+        {
+            "file_name": "google_maps_image_39.jpg",
+            "file_size_in_bytes": 20.2880859375,
+            "image_dimensions": "307x164",
+            "timestamp": "2025-03-24T05:22:28.776421"
+        },
+        {
+            "file_name": "google_maps_image_4.jpg",
+            "file_size_in_bytes": 9.2314453125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.791037"
+        },
+        {
+            "file_name": "google_maps_image_40.jpg",
+            "file_size_in_bytes": 12.33984375,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:28.804251"
+        },
+        {
+            "file_name": "google_maps_image_41.jpg",
+            "file_size_in_bytes": 14.328125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.818675"
+        },
+        {
+            "file_name": "google_maps_image_42.jpg",
+            "file_size_in_bytes": 12.748046875,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:28.825231"
+        },
+        {
+            "file_name": "google_maps_image_43.jpg",
+            "file_size_in_bytes": 10.830078125,
+            "image_dimensions": "194x259",
+            "timestamp": "2025-03-24T05:22:28.842881"
+        },
+        {
+            "file_name": "google_maps_image_44.jpg",
+            "file_size_in_bytes": 13.04296875,
+            "image_dimensions": "221x228",
+            "timestamp": "2025-03-24T05:22:28.852530"
+        },
+        {
+            "file_name": "google_maps_image_45.jpg",
+            "file_size_in_bytes": 11.3916015625,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:28.866729"
+        },
+        {
+            "file_name": "google_maps_image_46.jpg",
+            "file_size_in_bytes": 12.1845703125,
+            "image_dimensions": "261x193",
+            "timestamp": "2025-03-24T05:22:28.881030"
+        },
+        {
+            "file_name": "google_maps_image_47.jpg",
+            "file_size_in_bytes": 9.7421875,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:28.888611"
+        },
+        {
+            "file_name": "google_maps_image_48.jpg",
+            "file_size_in_bytes": 14.2001953125,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:28.909367"
+        },
+        {
+            "file_name": "google_maps_image_49.jpg",
+            "file_size_in_bytes": 11.0224609375,
+            "image_dimensions": "287x175",
+            "timestamp": "2025-03-24T05:22:28.922103"
+        },
+        {
+            "file_name": "google_maps_image_5.jpg",
+            "file_size_in_bytes": 12.9892578125,
+            "image_dimensions": "177x284",
+            "timestamp": "2025-03-24T05:22:28.940937"
+        },
+        {
+            "file_name": "google_maps_image_50.jpg",
+            "file_size_in_bytes": 9.1240234375,
+            "image_dimensions": "392x129",
+            "timestamp": "2025-03-24T05:22:28.951162"
+        },
+        {
+            "file_name": "google_maps_image_51.jpg",
+            "file_size_in_bytes": 12.7646484375,
+            "image_dimensions": "281x180",
+            "timestamp": "2025-03-24T05:22:28.972392"
+        },
+        {
+            "file_name": "google_maps_image_52.jpg",
+            "file_size_in_bytes": 9.623046875,
+            "image_dimensions": "168x299",
+            "timestamp": "2025-03-24T05:22:28.991042"
+        },
+        {
+            "file_name": "google_maps_image_53.jpg",
+            "file_size_in_bytes": 12.88671875,
+            "image_dimensions": "329x153",
+            "timestamp": "2025-03-24T05:22:29.006596"
+        },
+        {
+            "file_name": "google_maps_image_54.jpg",
+            "file_size_in_bytes": 12.3505859375,
+            "image_dimensions": "222x227",
+            "timestamp": "2025-03-24T05:22:29.023239"
+        },
+        {
+            "file_name": "google_maps_image_55.jpg",
+            "file_size_in_bytes": 10.7353515625,
+            "image_dimensions": "262x192",
+            "timestamp": "2025-03-24T05:22:29.035976"
+        },
+        {
+            "file_name": "google_maps_image_56.jpg",
+            "file_size_in_bytes": 11.478515625,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.048227"
+        },
+        {
+            "file_name": "google_maps_image_57.jpg",
+            "file_size_in_bytes": 12.3642578125,
+            "image_dimensions": "291x173",
+            "timestamp": "2025-03-24T05:22:29.057222"
+        },
+        {
+            "file_name": "google_maps_image_58.jpg",
+            "file_size_in_bytes": 13.359375,
+            "image_dimensions": "310x163",
+            "timestamp": "2025-03-24T05:22:29.075974"
+        },
+        {
+            "file_name": "google_maps_image_59.jpg",
+            "file_size_in_bytes": 13.541015625,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.090432"
+        },
+        {
+            "file_name": "google_maps_image_6.jpg",
+            "file_size_in_bytes": 13.765625,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.107351"
+        },
+        {
+            "file_name": "google_maps_image_60.jpg",
+            "file_size_in_bytes": 13.0771484375,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.123910"
+        },
+        {
+            "file_name": "google_maps_image_61.jpg",
+            "file_size_in_bytes": 13.6767578125,
+            "image_dimensions": "267x188",
+            "timestamp": "2025-03-24T05:22:29.141130"
+        },
+        {
+            "file_name": "google_maps_image_62.jpg",
+            "file_size_in_bytes": 11.2392578125,
+            "image_dimensions": "276x183",
+            "timestamp": "2025-03-24T05:22:29.151458"
+        },
+        {
+            "file_name": "google_maps_image_63.jpg",
+            "file_size_in_bytes": 9.8544921875,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.166256"
+        },
+        {
+            "file_name": "google_maps_image_64.jpg",
+            "file_size_in_bytes": 17.5419921875,
+            "image_dimensions": "320x157",
+            "timestamp": "2025-03-24T05:22:29.185441"
+        },
+        {
+            "file_name": "google_maps_image_65.jpg",
+            "file_size_in_bytes": 11.6162109375,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.202639"
+        },
+        {
+            "file_name": "google_maps_image_66.jpg",
+            "file_size_in_bytes": 12.0439453125,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:29.216847"
+        },
+        {
+            "file_name": "google_maps_image_67.jpg",
+            "file_size_in_bytes": 11.544921875,
+            "image_dimensions": "168x300",
+            "timestamp": "2025-03-24T05:22:29.225413"
+        },
+        {
+            "file_name": "google_maps_image_68.jpg",
+            "file_size_in_bytes": 10.330078125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.242312"
+        },
+        {
+            "file_name": "google_maps_image_69.jpg",
+            "file_size_in_bytes": 15.880859375,
+            "image_dimensions": "312x162",
+            "timestamp": "2025-03-24T05:22:29.259163"
+        },
+        {
+            "file_name": "google_maps_image_7.jpg",
+            "file_size_in_bytes": 12.228515625,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.267785"
+        },
+        {
+            "file_name": "google_maps_image_70.jpg",
+            "file_size_in_bytes": 14.220703125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.288362"
+        },
+        {
+            "file_name": "google_maps_image_71.jpg",
+            "file_size_in_bytes": 12.4521484375,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.299463"
+        },
+        {
+            "file_name": "google_maps_image_72.jpg",
+            "file_size_in_bytes": 12.470703125,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.316011"
+        },
+        {
+            "file_name": "google_maps_image_73.jpg",
+            "file_size_in_bytes": 13.37890625,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.332772"
+        },
+        {
+            "file_name": "google_maps_image_74.jpg",
+            "file_size_in_bytes": 18.6826171875,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.349322"
+        },
+        {
+            "file_name": "google_maps_image_75.jpg",
+            "file_size_in_bytes": 12.5712890625,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.366037"
+        },
+        {
+            "file_name": "google_maps_image_76.jpg",
+            "file_size_in_bytes": 11.22265625,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:29.374785"
+        },
+        {
+            "file_name": "google_maps_image_77.jpg",
+            "file_size_in_bytes": 13.2470703125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.393960"
+        },
+        {
+            "file_name": "google_maps_image_78.jpg",
+            "file_size_in_bytes": 11.927734375,
+            "image_dimensions": "299x168",
+            "timestamp": "2025-03-24T05:22:29.414852"
+        },
+        {
+            "file_name": "google_maps_image_79.jpg",
+            "file_size_in_bytes": 10.947265625,
+            "image_dimensions": "309x163",
+            "timestamp": "2025-03-24T05:22:29.425672"
+        },
+        {
+            "file_name": "google_maps_image_8.jpg",
+            "file_size_in_bytes": 12.4052734375,
+            "image_dimensions": "299x168",
+            "timestamp": "2025-03-24T05:22:29.439750"
+        },
+        {
+            "file_name": "google_maps_image_80.jpg",
+            "file_size_in_bytes": 11.056640625,
+            "image_dimensions": "263x192",
+            "timestamp": "2025-03-24T05:22:29.448211"
+        },
+        {
+            "file_name": "google_maps_image_81.jpg",
+            "file_size_in_bytes": 9.8564453125,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:29.467447"
+        },
+        {
+            "file_name": "google_maps_image_82.jpg",
+            "file_size_in_bytes": 12.142578125,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.480950"
+        },
+        {
+            "file_name": "google_maps_image_83.jpg",
+            "file_size_in_bytes": 12.19921875,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.489308"
+        },
+        {
+            "file_name": "google_maps_image_84.jpg",
+            "file_size_in_bytes": 12.5068359375,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.498336"
+        },
+        {
+            "file_name": "google_maps_image_85.jpg",
+            "file_size_in_bytes": 16.794921875,
+            "image_dimensions": "255x198",
+            "timestamp": "2025-03-24T05:22:29.513390"
+        },
+        {
+            "file_name": "google_maps_image_86.jpg",
+            "file_size_in_bytes": 8.427734375,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.531985"
+        },
+        {
+            "file_name": "google_maps_image_87.jpg",
+            "file_size_in_bytes": 12.623046875,
+            "image_dimensions": "177x284",
+            "timestamp": "2025-03-24T05:22:29.546051"
+        },
+        {
+            "file_name": "google_maps_image_88.jpg",
+            "file_size_in_bytes": 9.2626953125,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:29.563363"
+        },
+        {
+            "file_name": "google_maps_image_89.jpg",
+            "file_size_in_bytes": 12.837890625,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.579851"
+        },
+        {
+            "file_name": "google_maps_image_9.jpg",
+            "file_size_in_bytes": 15.361328125,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:29.596426"
+        },
+        {
+            "file_name": "google_maps_image_90.jpg",
+            "file_size_in_bytes": 13.7978515625,
+            "image_dimensions": "259x194",
+            "timestamp": "2025-03-24T05:22:29.613480"
+        },
+        {
+            "file_name": "google_maps_image_91.jpg",
+            "file_size_in_bytes": 9.7724609375,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.625692"
+        },
+        {
+            "file_name": "google_maps_image_92.jpg",
+            "file_size_in_bytes": 17.6015625,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.638964"
+        },
+        {
+            "file_name": "google_maps_image_93.jpg",
+            "file_size_in_bytes": 13.01953125,
+            "image_dimensions": "309x163",
+            "timestamp": "2025-03-24T05:22:29.656969"
+        },
+        {
+            "file_name": "google_maps_image_94.jpg",
+            "file_size_in_bytes": 10.4384765625,
+            "image_dimensions": "300x168",
+            "timestamp": "2025-03-24T05:22:29.671390"
+        },
+        {
+            "file_name": "google_maps_image_95.jpg",
+            "file_size_in_bytes": 11.4697265625,
+            "image_dimensions": "275x183",
+            "timestamp": "2025-03-24T05:22:29.688971"
+        },
+        {
+            "file_name": "google_maps_image_96.jpg",
+            "file_size_in_bytes": 12.0439453125,
+            "image_dimensions": "226x223",
+            "timestamp": "2025-03-24T05:22:29.709759"
+        },
+        {
+            "file_name": "google_maps_image_97.jpg",
+            "file_size_in_bytes": 16.140625,
+            "image_dimensions": "266x190",
+            "timestamp": "2025-03-24T05:22:29.721658"
+        },
+        {
+            "file_name": "google_maps_image_98.jpg",
+            "file_size_in_bytes": 12.1435546875,
+            "image_dimensions": "276x183",
+            "timestamp": "2025-03-24T05:22:29.738000"
+        },
+        {
+            "file_name": "google_maps_image_99.jpg",
+            "file_size_in_bytes": 12.5146484375,
+            "image_dimensions": "330x153",
+            "timestamp": "2025-03-24T05:22:29.754726"
+        }
+    ],
+    "timestamp": "2025-03-24T05:22:29.754726"
+}
