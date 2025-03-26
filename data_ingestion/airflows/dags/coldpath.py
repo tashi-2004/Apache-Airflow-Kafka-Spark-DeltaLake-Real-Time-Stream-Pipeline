@@ -44,4 +44,3 @@ ingest_twitter_data = PythonOperator(
 )
 
 ingest_google_maps_images >> ingest_serapi_images >> ingest_traffic_data >> ingest_twitter_data
-
