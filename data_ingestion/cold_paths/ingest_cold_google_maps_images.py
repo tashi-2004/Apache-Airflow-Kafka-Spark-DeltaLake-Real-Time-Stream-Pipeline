@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv("/home/tashi/airflow/env")
 GOOGLE_MAPS_API_KEY = os.getenv("API_GOOGLE_MAPS")
-
 SAVE_DIR = os.path.join(os.path.expanduser("~"), "BDM_Project", "storage", "delta", "raw", "images", "googlemaps")
 os.makedirs(SAVE_DIR, exist_ok=True)
 
