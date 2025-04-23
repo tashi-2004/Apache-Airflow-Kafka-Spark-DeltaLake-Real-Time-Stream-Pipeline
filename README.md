@@ -59,7 +59,7 @@ The data processing logic is handled in `transform.py`, which:
   - Loads raw data from sources.
   - Transforms data using Apache Spark.
   - Stores the processed data in Delta Lake.
-  - Generates metadata files for each dataset.
+  - Generates metadata files for each dataset
 
 ![Image](https://github.com/user-attachments/assets/9239e0cb-5c79-4d96-b26e-bada21f6e6c1)
 
